@@ -60,8 +60,7 @@ The main focus of this project was Event ID 4624 and Event ID 4625.
 
 Screenshots
 1. Splunk Installed and Running
-
-
+![Splunk Home](screenshots/01-setup/splunk-installed-home.png)
 
 
 This screenshot shows that Splunk Enterprise was successfully installed and accessible through the web interface.
