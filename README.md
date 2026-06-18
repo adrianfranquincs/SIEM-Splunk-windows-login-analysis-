@@ -58,75 +58,88 @@ The main focus of this project was Event ID 4624 and Event ID 4625.
 
 ---
 
-## Screenshots
+Screenshots
+1. Splunk Installed and Running
 
-### 1. Splunk Installed and Running
 
-![Splunk Home](screenshots/01-setup/01-splunk-installed-home.png)
+
 
 This screenshot shows that Splunk Enterprise was successfully installed and accessible through the web interface.
 
----
+2. Add Windows Event Logs
 
-### 2. Windows Event Log Input Configuration
 
-![Windows Event Log Input](screenshots/02-log-ingestion/04-security-log-input-configured.png)
+
+
+This screenshot shows the Windows Event Log source selection page in Splunk.
+
+3. Windows Event Log Input Configuration
+
+
+
 
 This screenshot shows the Windows Event Logs selected for ingestion, including Security, System, and Application logs.
 
----
+4. Windows Event Log Input Success
 
-### 3. Windows Security Logs Ingested
 
-![Windows Events Ingested](screenshots/02-log-ingestion/06-windows-events-ingested.png)
+
+
+This confirms that the local Windows Event Log input was created successfully.
+
+5. Windows Security Logs Ingested
+
+
+
 
 This confirms that Splunk successfully ingested Windows Security Event Logs from host DC01.
 
----
+6. Successful Login Events
 
-### 4. Successful Login Events
 
-![Successful Logins](screenshots/03-authentication-analysis/07-successful-logins-4624.png)
+
 
 This search identified successful Windows login events using Event ID 4624.
 
----
+7. Failed Login Events
 
-### 5. Failed Login Events
 
-![Failed Logins](screenshots/03-authentication-analysis/08-failed-logins-4625.png)
+
 
 This search identified failed Windows login attempts using Event ID 4625.
 
----
+8. Authentication Timeline
 
-### 6. Failed Logins Followed by Successful Login
 
-![Authentication Timeline](screenshots/03-authentication-analysis/09-failed-and-successful-logins-timeline.png)
+
+
+This table shows Windows authentication events in a cleaner timeline format.
+
+9. Failed Logins Followed by Successful Login
+
+
+
 
 This timeline shows multiple failed login attempts followed by a successful login, which is a common pattern SOC analysts may investigate.
 
----
+10. Multiple Failed Login Detection
 
-### 7. Multiple Failed Login Detection
 
-![Multiple Failed Logins](screenshots/04-detection-searches/10-multiple-failed-logins-count.png)
+
 
 This detection search summarized failed login activity and showed that DC01 had multiple failed login events.
 
----
+11. Failed Logins by Account
 
-### 8. Failed Logins by Account
 
-![Failed Logins by Account](screenshots/04-detection-searches/11-failed-logins-by-account.png)
+
 
 This search grouped failed login attempts by account name to identify which account was involved.
 
----
+12. Final Administrator Login Investigation
 
-### 9. Final Administrator Login Investigation
 
-![Administrator Login Investigation](screenshots/05-final-summary/12-administrator-login-investigation-summary.png)
+
 
 This final investigation view shows failed Administrator login attempts followed by a successful login.
 
