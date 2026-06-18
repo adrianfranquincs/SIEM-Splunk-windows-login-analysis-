@@ -88,7 +88,7 @@ This screenshot shows the Windows Event Logs selected for ingestion, including S
 
 This confirms that the local Windows Event Log input was created successfully.
 
-5. Windows Security Logs Ingested
+5. Windows Event Logs Ingested
 ![Windows Events Ingested](screenshots/02-log-ingestion/windows-events-ingested.png)
 
 
