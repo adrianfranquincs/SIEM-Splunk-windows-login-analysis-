@@ -80,6 +80,7 @@ This screenshot shows the Windows Event Log source selection page in Splunk.
 This screenshot shows the Windows Event Logs selected for ingestion, including Security, System, and Application logs.
 
 4. Windows Event Log Input Success
+
 ![Windows Event Log Input Success](screenshots/02-log-ingestion/windows-event-log-input-success.png)
 
 
