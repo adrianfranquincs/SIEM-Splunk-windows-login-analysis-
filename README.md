@@ -92,7 +92,7 @@ This confirms that the local Windows Event Log input was created successfully.
 ![Windows Events Ingested](screenshots/02-log-ingestion/windows-events-ingested.png)
 
 
-This confirms that Splunk successfully ingested Windows Security Event Logs from host DC01.
+This confirms that Splunk successfully ingested Windows Event Logs from host DC01, including Security log events.
 
 6. Successful Login Events
 ![Successful Logins 4624](screenshots/03-authentication-analysis/successful-logins-4624.png)
@@ -134,7 +134,7 @@ This detection search summarized failed login activity and showed that DC01 had 
 
 
 
-This search grouped failed login attempts by account name to identify which account was involved.
+This search grouped failed login attempts by account name. The Administrator account showed 4 failed login events, matching the simulated login failures.
 
 12. Final Administrator Login Investigation
 ![Administrator Login Investigation Summary](screenshots/05-final-summary/administrator-login-investigation-summary.png)
