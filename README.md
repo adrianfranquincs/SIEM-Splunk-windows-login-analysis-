@@ -219,12 +219,6 @@ In a real SOC environment, this type of activity could represent a user mistypin
 
 ---
 
-## Resume Summary
-
-Built a Splunk SIEM home lab on a Windows Server domain controller to ingest Windows Security Event Logs, analyze Event ID 4624 and 4625 authentication activity, and investigate multiple failed Administrator logins followed by a successful login.
-
----
-
 ## Future Improvements
 
 * Add Splunk Universal Forwarder on a Windows client VM.
